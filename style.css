@@ -1,0 +1,99 @@
+body {
+	background-color: rgb(37, 5, 27);
+	font-family: 'Teko', sans-serif;
+	font-size: 80;
+}
+nav {
+	background: rgb(194, 91, 125);
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 80;
+}
+.nav-enlace {
+	padding: 1rem;
+	border-radius: 5px;
+	display: inline-block;
+	color: rgb(255, 224, 220);
+	padding: auto;
+	text-decoration: none;
+	transition: 150ms;
+}
+
+.nav-enlace:hover {
+	background: rgb(124, 58, 80);
+}
+.nav-links {
+	flex: 1;
+	color: rgb(255, 240, 255);
+}
+
+.titulo {
+	margin: auto;
+	color: rgb(255, 225, 246);
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	font-size: x-large;
+}
+
+#contenedor-principal {
+	display: grid;
+}
+
+#contenedor-productos {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.producto {
+	margin: auto;
+}
+
+.card {
+	padding-bottom: 1.1rem;
+}
+
+img {
+	transition: 150ms;
+}
+
+.card h3 {
+	font-size: xx-large;
+}
+
+.card h3,
+h4 {
+	font-size: x-large;
+	color: rgb(255, 209, 209);
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.btn {
+	size: 1.2rem;
+	background-color: rgb(128, 85, 101);
+	color: rgb(247, 216, 216);
+	border: none;
+	margin: auto;
+	padding: 12px;
+	font-size: 16px;
+	border-radius: 5px;
+	height: fit-content;
+	transition: 150ms;
+}
+
+.btn:hover {
+	background-color: rgb(85, 32, 49);
+}
+
+.btn:active {
+	background-color: rgb(51, 28, 38);
+}
+
+footer {
+	background-color: rgb(129, 61, 84);
+	color: rgb(253, 224, 221);
+}
